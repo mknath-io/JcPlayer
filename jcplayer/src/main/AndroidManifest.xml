@@ -7,10 +7,9 @@
 
     <application
         android:allowBackup="true"
-        android:label="@string/app_name"
         android:usesCleartextTraffic="true"
         android:supportsRtl="true"
-        tools:replace="android:label">
+        >
         <service android:name=".service.JcPlayerService" />
 
         <receiver
